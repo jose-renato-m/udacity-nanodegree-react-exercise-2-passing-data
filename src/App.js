@@ -21,17 +21,17 @@ const profiles = [
   },
   {
     id: 3,
-    userID: '4',
+    userID: '3',
     favoriteMovieID: '5',
   },
   {
     id: 4,
-    userID: '5',
+    userID: '4',
     favoriteMovieID: '2',
   },
   {
     id: 5,
-    userID: '3',
+    userID: '5',
     favoriteMovieID: '5',
   },
   {
@@ -58,7 +58,7 @@ const users = {
     userName: 'user123',
   },
   4: {
-    id: 3,
+    id: 4,
     name: 'John Doe',
     userName: 'user123',
   },
