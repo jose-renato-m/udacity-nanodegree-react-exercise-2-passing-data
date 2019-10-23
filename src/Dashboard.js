@@ -13,7 +13,7 @@ class Dashboard extends Component {
         movieInfo={movies[id]} />
     ));
 
-
+    return <ul>{movieCards}</ul>;
   }
 }
 
