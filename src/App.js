@@ -122,8 +122,10 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>How Popular is Your Favorite Movie?</h2>
-        {profiles.filter(profile => {
-          const popularMovie = movies[profile.favoriteMovieID].name
+        <Dashboard 
+          usersByMovie={this.usersByMovie}
+          movies={movies}
+          users={users}/>
 })}
       </div>
     );
