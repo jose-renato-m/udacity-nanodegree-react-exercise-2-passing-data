@@ -102,6 +102,16 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.usersByMovie = {};
+    
+    profiles.forEach(profile => {
+      const movieID = profile.favoriteMovieID;
+      
+      if (this.usersByMovie[movieID]) {
+        this.usersByMovie[movieID].push(profile.userID);
+      } else {
+        this.usersByMovie[movieID] = [profile.userID];
+      }
+    });
   }
   
   render() {
