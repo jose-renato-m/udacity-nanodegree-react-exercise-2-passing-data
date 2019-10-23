@@ -9,7 +9,7 @@ class Dashboard extends Component {
       <MovieCard
         key={id}
         users={users}
-        usersWhoLikedMovie={userByMovie[id]}
+        usersWhoLikedMovie={usersByMovie[id]}
         movieInfo={movies[id]} />
     ));
 
