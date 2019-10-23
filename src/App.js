@@ -99,6 +99,11 @@ const movies = {
 };
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.usersByMovie = {};
+  }
+  
   render() {
     return (
       <div className="App">
