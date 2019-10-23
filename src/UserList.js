@@ -17,3 +17,5 @@ class UserList extends Component {
    return <ul>{listofItems}</ul};
   }
 }
+
+export default UserList;
